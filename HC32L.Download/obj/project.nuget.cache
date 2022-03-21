@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "2COdTfS956gzAvQclTgpB/72MSJXRHw/ww2e8C2Qhxx3+dIJj6cM7i+ILw82DLCyatargF3zYsBEncl3m0bmEA==",
+  "success": true,
+  "projectFilePath": "C:\\ode\\HC32L.Download\\HC32L.Download\\HC32L.Download.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\elfsharp\\2.13.3\\elfsharp.2.13.3.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0\\runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
