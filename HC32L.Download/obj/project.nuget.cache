@@ -1,17 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "2COdTfS956gzAvQclTgpB/72MSJXRHw/ww2e8C2Qhxx3+dIJj6cM7i+ILw82DLCyatargF3zYsBEncl3m0bmEA==",
+  "dgSpecHash": "0wwbSdYDeroyT5XMYo9MQefqDnQ0s2GH08xDWcQlZGo2yEWvxK6phFPWlLZZ/dkzSN1fiPsihLZUOvTHBpYnNg==",
   "success": true,
-  "projectFilePath": "C:\\ode\\HC32L.Download\\HC32L.Download\\HC32L.Download.csproj",
+  "projectFilePath": "C:\\ode\\HC32L.Download\\HC32L.Download\\hc32tool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\elfsharp\\2.13.3\\elfsharp.2.13.3.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.logging.configuration\\6.0.0\\microsoft.extensions.logging.configuration.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.logging.console\\6.0.0\\microsoft.extensions.logging.console.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\mono.options\\6.12.0.148\\mono.options.6.12.0.148.nupkg.sha512",
     "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0\\runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
-    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512"
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.commandline\\2.0.0-beta3.22114.1\\system.commandline.2.0.0-beta3.22114.1.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jeffrey Becker\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

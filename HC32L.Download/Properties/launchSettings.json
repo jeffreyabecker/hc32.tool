@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "HC32L.Download": {
+      "commandName": "Project",
+      "commandLineArgs": "download C:\\ode\\hc32l110\\blink.elf COM7",
+      "hotReloadEnabled": false
+    }
+  }
+}

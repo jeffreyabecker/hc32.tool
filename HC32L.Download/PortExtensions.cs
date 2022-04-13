@@ -8,7 +8,7 @@ public static class PortExtensions
         foreach (var b in data)
         {
             final += b;
-        
+
         }
         return final;
     }
@@ -16,7 +16,7 @@ public static class PortExtensions
     public static IEnumerable<byte> AppendChecksum8(this IEnumerable<byte> data)
     {
         byte final = 0x00;
-        foreach(var b in data)
+        foreach (var b in data)
         {
             final += b;
             yield return b;
@@ -35,24 +35,9 @@ public static class PortExtensions
         }
         return result;
     }
-    public static byte[] AppendChecksum16(this byte[] data)
-    {
-        byte[] result = new byte[data.Length + 2];
-        ushort num1 = ushort.MaxValue;
-        for (int index = 0; index < data.Length; ++index)
-        {
-            byte num2 = (byte)(data[index] ^ (uint)(byte)(num1 & (uint)byte.MaxValue));
-            byte num3 = (byte)(num2 ^ (uint)((num2 & 15) << 4));
-            num1 = (ushort)(num1 >> 8 ^ num3 << 8 ^ num3 << 3 ^ num3 >> 4);
-        }
-        var tmp = BitConverter.GetBytes((ushort)((uint)num1 ^ (uint)ushort.MaxValue));
-        result[result.Length - 2] = tmp[0];
-        result[result.Length - 1] = tmp[1];
-        return result;
-    }
+
     public static void Write(this System.IO.Ports.SerialPort port, byte[] bytes)
-    {
-        Console.WriteLine($"Writing {bytes.Length} bytes: {bytes.ToHexString()}");
+    {        
         port.Write(bytes, 0, bytes.Length);
     }
     public static byte[]? Read(this System.IO.Ports.SerialPort port, int count, TimeSpan timeout)
@@ -63,12 +48,12 @@ public static class PortExtensions
         var recievedData = new byte[count];
         while (true)
         {
-            if(port.BytesToRead >= count)
+            if (port.BytesToRead >= count)
             {
                 port.Read(recievedData, 0, count);
                 return recievedData;
             }
-            else if ( (DateTime.Now - start) >= timeout)
+            else if ((DateTime.Now - start) >= timeout)
             {
                 var found = port.BytesToRead;
                 port.Read(recievedData, 0, found);
@@ -77,10 +62,6 @@ public static class PortExtensions
             Thread.Sleep(TimeSpan.FromMilliseconds(10));
         }
 
-    }
-    public static bool Execute(this System.IO.Ports.SerialPort port, Command cmd)
-    {
-        return cmd.Execute(port);
     }
 
 
