@@ -72,9 +72,9 @@ public class ShowConfigCommand : Command
         this.SetHandler(() =>
         {
             Console.WriteLine(@"Please connect the serial port and MCU as such:
-Serial.DTR/DSR => MCU.P00/RESET
+Serial.DTR/RTS => MCU.P00/RESET
 Serial.V+ => MCU.V+ (6)
-Sserial.GND =>MCU.GND(4)
+Serial.GND =>MCU.GND(4)
 Serial.RXD => MCU.P31(15)
 Serial.TXD => MCU.P27(14)
 OR
