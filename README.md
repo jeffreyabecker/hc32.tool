@@ -6,8 +6,8 @@ This tool will flash elf / raw binaires to a HC32L110 series MCU via their built
 The chip / serial module should be wired together as such:
 ```
 Serial.DTR/RTS => MCU.P00/RESET
-Serial.V+ => MCU.V+ 
-Serial.GND =>MCU.GND
+Serial.V+ =>  MCU.V+ 
+Serial.GND => MCU.GND
 Serial.RXD => MCU.P35
 Serial.TXD => MCU.P36
 ```
