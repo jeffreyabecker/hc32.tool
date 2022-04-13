@@ -9,7 +9,7 @@ public class DownloadCommand : Command
         var binPath = new Argument<string>("binaryPath");
         var portPath = new Argument<string>("portPath");
         var rawOption = new Option<bool>("--raw", "binary is a raw bin file from objcopy");
-        var baudOption = new Option<int?>("--baud", "use the specified baud rate (9600 default)");
+        var baudOption = new Option<int?>("--baud", "use the specified baud rate (115200 default)");
         this.AddArgument(binPath);
         this.AddArgument(portPath);
         this.AddOption(rawOption);
@@ -19,7 +19,7 @@ public class DownloadCommand : Command
             var ctx = new DownloadMessgeContext
             {
                 Port = new System.IO.Ports.SerialPort(portPath),
-                BaudRate = baud ?? 9600,
+                BaudRate = baud ?? 115200,
                 BinaryPath = binaryPath,
                 UseRawBinary = raw
             };
@@ -35,7 +35,7 @@ public class ListenCommand : Command
     {
 
         var portPath = new Argument<string>("portPath");
-        var baudOption = new Option<int?>("--baud", "use the specified baud rate (9600 default)");
+        var baudOption = new Option<int?>("--baud", "use the specified baud rate (115200 default)");
 
         this.AddArgument(portPath);
         this.AddOption(baudOption);
@@ -46,7 +46,7 @@ public class ListenCommand : Command
             var ctx = new MessageContext
             {
                 Port = new System.IO.Ports.SerialPort(portPath),
-                BaudRate = baud ?? 9600,
+                BaudRate = baud ?? 115200,
             };
             ctx.Port.BaudRate = ctx.BaudRate;
             new ResetMessage().Execute(ctx);
@@ -75,11 +75,9 @@ public class ShowConfigCommand : Command
 Serial.DTR/RTS => MCU.P00/RESET
 Serial.V+ => MCU.V+ (6)
 Serial.GND =>MCU.GND(4)
-Serial.RXD => MCU.P31(15)
-Serial.TXD => MCU.P27(14)
-OR
 Serial.RXD => MCU.P35(19)
-Serial.TXD => MCU.P36(20)");
+Serial.TXD => MCU.P36(20)
+");
         });
     }
 }
